@@ -1,0 +1,879 @@
+
+
+
+
+@font-face{
+	font-family: GothamLight;
+	src: url('fonts/GothamLight.otf') format('embedded-opentype'),
+	url('fonts/GothamLight.otf') format('opentype');
+}
+
+@font-face{
+	font-family: GothamBold;
+	src: url('fonts/GothamBold.otf') format('embedded-opentype'),
+	url('fonts/GothamBold.otf') format('opentype');
+}
+.gothambold{
+	font-family: GothamBold;
+}
+.gothamlight{
+	font-family: GothamLight;
+}
+.font{
+	font-family: GothamLight;
+}
+.font14{
+	font-size: 14px;
+}
+.font16{
+	font-size: 16px;
+}
+.font18{
+	font-size: 18px;
+}
+.font20{
+	font-size: 20px;
+}
+.font22{
+	font-size: 22px;
+}
+.font24{
+	font-size: 24px;
+}
+.font26{
+	font-size: 26px;
+}
+.font30{
+  font-size: 30px;
+}
+.font-weight-600{
+	font-weight: 600;
+}
+.font-weight-400{
+	font-weight: 400;
+}
+.font-weight-900{
+	font-weight: 900;
+}
+.font-weight-800{
+	font-weight: 800;
+}
+.gcolor{
+	color: #6a8160;
+}
+.grcolor{
+	background: #fcfcfc;
+}
+.white{
+  background: white;
+}
+p{
+	text-transform: none !important;
+}
+.topbarpara .para{
+	font-family: GothamLight;
+}
+.heading{
+	font-family: GothamLight;
+}
+.topbarpara{
+	color:#6a8160;
+}
+.sliderheading{
+	font-family:GothamBold !important;
+	font-size: 3rem;
+}
+.topbarbutton{
+	border: none;
+  font-size: 14px;
+	padding-left:10px;
+  padding-right: 10px;
+	border-radius: 20px;
+	color: #6a8160;
+	background: white;
+	border:2px solid #6a8160;
+  font-weight: bold;
+  margin-left:10px;
+}
+.topbarbutton:hover{
+	border:2px solid #6a8160;
+	color:#6a8160;
+	font-weight: bold;
+	transition: 0.8s;
+}
+.menu ul li a {
+	padding-left: 0px !important;
+}
+.menu ul li a {
+    padding-left: 20px !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 900;
+}
+.menu ul .active{
+	background: #6a8160;
+	border-radius: 20px;
+	padding-right:6px;
+	color: white !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+.masthead {
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.headertext h5,h1,p{
+	text-transform: uppercase;
+}
+.companylogo img{
+	height: 150px;
+}
+.imagerow4 img{
+	border-radius: 25px;
+}
+
+@media only screen and (max-width: 767px){
+.section3 .responsivepadding {
+   margin-top: 10px;
+    }}
+.responsivepadding{
+	margin-top: 30%;
+}
+.custombutton{
+	border: 2px solid #6a8160;
+	background: #6a8160;
+	color: white;
+	font-family: GothamLight;
+	padding:10px;
+	border-radius: 20px;
+}
+.custombutton:hover{
+	border: 2px solid #6a8160;
+	background: none;
+	transition: .2s;
+	color: #6a8160
+}
+.orangebutton{
+	border: 2px solid #ff9900;
+	background: white;
+	color: #ff9900;
+	font-family: GothamLight;
+	padding:10px;
+	border-radius: 20px;
+}
+.orangebutton:hover{
+	border: 2px solid #ff9900;
+	background: none;
+	transition: .2s;
+	color: #ff9900
+}
+.footer a{
+	font-family: GothamLight;
+	color: #6a8160;
+	text-decoration: none;
+	text-transform: none
+}
+.footer h5{
+	color: #6a8160;
+	font-family: GothamBold;
+}
+.topborder{
+	border-top: 2px solid;
+}
+
+.smile:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.icon2:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon2.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.icon3:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon3.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.icon4:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon4.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.icon5:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon5.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.icon6:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/icon6.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+}
+.policy-1:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/policy-1.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 10px;
+}
+.policy-2:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/policy-3.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 10px;
+    padding: 0;
+}
+.policy-3:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/policy-2.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 10px;
+    padding: 0;
+}
+.home:before{
+    position: absolute;
+    content: "";
+    display: inline;
+    background: url(images/home.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 10px;
+    padding: 0;
+}
+@media only screen and (max-width: 767px){
+.bottle {
+   width:  100% !important;
+   margin-left: 0% !important;
+}}
+@media only screen and (max-width: 767px){
+.howitwork {
+   width:  100% !important;
+   margin-left: 0% !important;
+}}
+
+@media only screen and (max-width: 767px){
+.responsiveimage {
+   width:  100% !important;
+   margin-left: 0% !important;
+}}
+.newsletter{
+	position: relative;
+}
+.newsletter input{
+	background: #f5f5f5;
+    border: none;
+    color: #a3a3a3;
+    display: block;
+    font-size: 1em;
+    height: 50px;
+    line-height: 50px;
+    max-width: 100%;
+    padding: 0 20px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.newsletter img{
+	position: absolute;
+    width: 15%;
+    right: 0px;
+    height: 40px;
+    top: 0px;
+}
+@media only screen and (max-width: 767px){
+.newsletter input {
+   width: 100%;
+}}
+
+@media only screen and (max-width: 767px){
+.newsletter img {
+   width: 20%;
+   right: -40px;
+
+}}
+
+.menu{
+	margin-left:5%;
+}
+
+@media only screen and (max-width: 767px){
+.menu  {
+  margin-left:0%;}}
+
+  .carticon{
+  	padding-right: 30px;
+  	padding-left: 30px
+  }
+  @media only screen and (max-width: 767px){
+.carticon  {
+	padding-right: 0px;
+	padding-left: 00px
+  	margin-left: 5px;
+
+   }}
+
+
+     @media only screen and (max-width: 767px){
+.searchicon  {
+	
+  	margin-left: 15px;
+
+   }}
+
+ .grambutton{
+ 	background: white;
+ 	color: #6a8160;
+ 	border-radius: 20px;
+ 	border:3px solid #6a8160;
+ 	padding: 10px 15px;
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ 	font-family: GothamBold;
+   }
+   .grambutton:hover{
+ 	background: #6a8160;
+ 	color: white;
+ 	border-radius: 20px;
+ 	border:3px solid white;
+ 	padding: 10px 15px;
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ 	font-family: GothamBold;
+   }
+
+
+
+
+ .grambuttonorange{
+  background: white;
+  color: #FF9900;
+  border-radius: 20px;
+  border:3px solid #FF9900;
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: GothamBold;
+   }
+   .grambuttonorange:hover{
+  background: #FF9900;
+  color: white;
+  border-radius: 20px;
+  border:3px solid white;
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: GothamBold;
+   }
+
+
+
+
+
+   .extrapadding{
+   	padding: 7px 30px;
+   }
+
+.tab-content .carousel-control-prev-icon {
+	display: none !important;
+	background-image: url(images/prevarrow.png) !important;
+	height: 40px !important;
+	width: 32px !important;
+}
+.tab-content .carousel-control-next-icon {
+	display: none !important;
+	background-image: url(images/prevarrow.png) !important;
+	height: 40px !important;
+	width: 32px !important;
+}
+.nav-tabs {
+    border-bottom: none !important;
+}
+.extramargin{
+	margin-left:39%;
+}
+@media only screen and (max-width: 767px){
+.extramargin  {
+  margin-left:0%;
+}
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  height: 100%;
+}
+.extrapaddingtabs{
+	margin-left:40%;
+}
+.ocolor{
+	color: #ff9900;
+}
+.activemg{
+	background: #6a8160 !important;
+	color: white !important;
+
+}
+.orangebutton{
+	padding:10px 30px !important;
+}
+.mintbutton{
+	padding:10px 35px !important;
+  background: white;
+  color: green;
+  border-radius: 25px;
+}
+@media only screen and (max-width: 767px){
+.orangebuttonmedia  {
+  margin-left:30%;
+}
+}
+@media only screen and (max-width: 767px){
+.mintbutton  {
+  margin-left:32%;
+}
+}
+.paddingleftright{
+  padding: 0px 120px 0px 120px;
+}
+
+@media only screen and (max-width: 767px){
+.paddingleftright  {
+  padding: 0px 0px 0px 0px !important;
+}
+}
+.border-50{
+  border-radius: 50px !important;
+}
+.boxshadowonhover:hover{
+  -webkit-box-shadow: 0px 2px 19px -6px rgba(168,153,168,1);
+-moz-box-shadow: 0px 2px 19px -6px rgba(168,153,168,1);
+box-shadow: 0px 2px 19px -6px rgba(168,153,168,1);
+}
+
+
+.product_image_div1{
+  background: url('images/p_vape100.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center center; 
+}
+.product_image_div1:hover{
+  background: url('images/p_vapeg100.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  transition: .5s;
+  background-position: center center;
+}
+@media only screen and (max-width: 767px){
+.product_image_div1  {
+  background: url('images/p_vape100_m.png') no-repeat;
+  width: 100%;
+ background-position: center center;
+}
+}
+
+
+
+
+.product_image_div2{
+  background: url('images/p_vape1000.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+}
+.product_image_div2:hover{
+  background: url('images/p_vape1000g.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  transition: .5s;
+  background-position: center center;
+}
+@media only screen and (max-width: 767px){
+.product_image_div2  {
+  background: url('images/vape1000m.png') no-repeat;
+  width: 100%;
+background-position: center center;
+}
+}
+.product_image_div3{
+  background: url('images/p_vape1000.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+}
+.product_image_div3:hover{
+  background: url('images/p_vape1000g.png') no-repeat;
+  width: 100%;
+  height: 500px;
+  transition: .5s;
+  background-position: center center;
+}
+@media only screen and (max-width: 767px){
+.product_image_div3  {
+  background: url('images/vape1000m.png') no-repeat;
+  width: 100%;
+  background-position: center center;
+}
+}
+
+
+.price{
+  font-size: 20px;
+}
+.pricedesc{
+  font-weight: normal;
+}
+.captipndiv{
+  font-size: 20px;
+}
+.extralogomargin{
+  margin-left: 14%;
+}
+.mintgrambottle{
+  background: #6a8160 !important;
+  color: white !important;
+
+}
+.nav-tabs li{
+  padding-left:0px; 
+}
+
+.tabsbuttonmint{
+  padding: 10px 47px !important;
+    background: white !important;
+    color: green !important;
+    border-radius: 25px !important;
+    border: 3px solid #6a8160 !important;
+}
+.nav-tabs .nav-item.show .tabsbuttonmint, .nav-tabs .tabsbuttonmint.active {
+    border: 2px solid #6a8160  !important;
+    background: #6a8160  !important;
+    color: white !important;
+    font-family: GothamLight !important;
+    border-radius: 20px !important;
+}
+.tabsbuttonorange{
+  border: 2px solid #ff9900 !important;
+  background: white !important;
+  color: #ff9900 !important;
+  padding: 10px 35px !important;
+  font-family: GothamLight !important;
+  border-radius: 20px !important;
+}
+.nav-tabs .nav-item.show .tabsbuttonorange, .nav-tabs .tabsbuttonorange.active {
+    border: 2px solid #ff9900 !important;
+    background: #ff9900 !important;
+    color: white !important;
+    font-family: GothamLight !important;
+    border-radius: 20px !important;
+}
+.responsivetabs{
+  margin: auto;
+}
+@media only screen and (max-width: 767px){
+.responsivetabs  {
+  width: 50%;
+  margin: none;
+
+}
+}
+.homesectionslider{
+  position: relative !important;
+}
+.homesectionslider .carousel-control-prev-icon {
+    background-image: url('images/parrow.png') !important;
+      width: 80px;
+      height: 80px
+}
+
+.homesectionslider .carousel-control-next-icon {
+    background-image: url('images/arrow.png') !important;
+      width:80px;
+      height:80px;
+}
+.homesectionslider .carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  display: flex; 
+  top:-800px !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 1 !important;
+}
+.homesectionslider .carousel-control-prev {
+  position: absolute;
+  display: inline; 
+  top:-10px !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 1 !important;
+}
+.homesectionslider  .carousel-control-next {
+    position: absolute;
+    display: inline;
+    color: #fff;
+    top:-10px !important;
+    text-align: center;
+    opacity: .5;
+}
+.homesectionslider .carousel-control-prev{
+  left:38%;
+}
+
+.homesectionslider .carousel-control-next{
+  right:38%;
+}
+.homesectionslider{
+    position: relative;
+    margin-top: 100px;
+}
+.homesectionslider .carousel-indicators{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:focus {
+outline: none !important;
+}
+button:focus {
+outline: none !important;
+}
+
+
+
+.tabs a:hover,.tabs a:active{
+  background:red !important;
+  border: 10px solid red !important;
+}
+
+.mintbutton:focus{
+  color:green;
+  border: 2px solid #6a8160;
+  background: #6a8160;
+  color: white;
+  font-family: GothamLight;
+}
+
+
+.orangebutton:focus{
+  background: #ff9900;
+  color: white;
+  font-family: GothamLight;
+}
+.grambutton:focus{
+background: #6a8160 !important;
+color: white
+}
+
+
+
+ .testimonial .card-header {
+     min-height: 11rem;
+     background: none;
+     border:none;
+ }
+
+ h6 {
+     color: #333
+ }
+
+ 
+ .testimonial .img-1 {
+     position: relative;
+     width: 200px;
+     height: auto;
+     border-radius: 50%;
+     top: -127px !important;
+ }
+
+ .testimonial .quotes {
+     position: relative;
+     top: -90px
+ }
+
+ .testimonial .quotes-img {
+     height: auto
+ }
+
+ .testimonial .carousel-indicators li {
+     cursor: pointer;
+     border-radius: 50% !important;
+     width: 10px;
+     height: 10px;
+     opacity: 0.5;
+     margin: 0 15px 18px 15px;
+     color: #333;
+     background-color: #333 !important;
+     top: -10px;
+     position: relative
+ }
+
+ .testimonial .carousel-inner {
+     border-radius: 15px !important
+ }
+ .testimonial .carousel-indicators li {
+    color: #6a8160 !important;
+    opacity: 1;
+    background-color: #6a8160 !important;
+        width: 15px;
+    height: 15px;
+}
+.testimonial .border-0 {
+    border-radius: 101px !important;
+}
+.testimonial img{
+ width: 25% !important;
+}
+
+
+
+
+.testimonial2 .carousel-indicators{
+  left:0 !important;
+  top:auto  !important;
+  bottom: -70px !important;
+}
+.testimonial2 .carousel-indicators li{
+  background: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  width: 15px;
+  text-decoration: none;
+  text-transform: none;
+  }
+
+
+.testimonial .carousel-indicators .active{
+ background: white !important;
+ border:2px solid  #6a8160  !important;
+}
+
+.iframeborder{
+    border-radius: 20px;
+}
+.mc4wp-form-button{
+  background: url('images/mail.png') !important;
+  max-height: 50px;
+  max-width: 50px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.carousolDisplayNone .carousel-control-prev{
+  display: none;
+}
+.carousolDisplayNone .carousel-control-next{
+  display: none;
+}
+.custombuttonslider{
+  border: 2px solid #6a8160;
+  background: white;
+  color: #6a8160;
+  font-family: GothamLight;
+  padding:10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.custombuttonslider:hover{
+  border: 2px solid white;
+  background: none;
+  transition: .2s;
+  color: white;
+}
+.borderTopBottom{
+  border-top: 2px solid #6a8160;
+  border-bottom: 2px solid #6a8160;
+}
+button{
+  cursor:pointer;
+}
